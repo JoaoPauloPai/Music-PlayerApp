@@ -1,38 +1,48 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Musica App Efeito Neumorfismo</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="wrapper">
-        <header>
-            <button class="hdbtn">
-                <i class="seta pequena a esquerda"></i>
-            </button>
-            <h3 class="p-now">Play Now</h3>
-            <button class="hdbtn">
-                <i class="fi fi-sr-list"></i>
-            </button>
-        </header>
+      <header>
+        <button class="hdbtn">
+          <i class="seta pequena a esquerda"></i>
+        </button>
+        <h3 class="p-now">Play Now</h3>
+        <button class="hdbtn">
+          <i class="fi fi-sr-list"></i>
+        </button>
+      </header>
 
-        <div class="player">
-
-            <div class="img-area">
-                <img src="" alt="">
-            </div>
-
-            <div class="img-area"></div>
-
-            <div class="img-area"></div>
-
-            <div class="img-area"></div>
-        
+      <div class="player">
+        <div class="img-area">
+          <img src="img-um-PlayerMusic.png" alt="" />
         </div>
 
+        <div class="song-details">
+          <h1 class="nome">Animação</h1>
+          <h3 class="artista">Codigo</h3>
+        </div>
+
+        <div class="audioC">
+            <div class="song-timer">
+                <span class="temporizador atual">0:00</span>
+                <span class="maxima duracao">0:00</span>
+            </div>
+            <div class="progress-area">
+                <div class="progress-bar">
+                    <audio id="main-audio" src=""
+                </div>
+
+            </div>
+        </div>
+
+        <div class="constrols"></div>
+      </div>
     </div>
-    
-</body>
+  </body>
 </html>
