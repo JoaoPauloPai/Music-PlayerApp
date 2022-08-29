@@ -63,3 +63,13 @@ header,
   justify-content: space-between;
   text-align: center;
 }
+
+header .hdbtn {
+    background: var(--bg02);
+    border: 2px solid var(--border01);
+    box-shadow: var(--box-shadow01);
+    width: 52px;
+    height: 52px;
+    line-height: 52px;
+    color: #76798c;
+}
