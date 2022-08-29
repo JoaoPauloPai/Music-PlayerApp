@@ -123,6 +123,7 @@ img {
 .song-timer span {
   font-size: 10px;
   color: #7c7d80;
+  user-select: none;
   font-weight: 800;
 }
 
@@ -165,7 +166,7 @@ img {
 .progress-bar::after {
   content: '';
   position: absolute;
-  background: rgb(58, 146, 31);
+  background: #3a921f;
   border-radius: 50%;
   top: 50%;
   right: -5px;
@@ -196,7 +197,7 @@ img {
 .btnC:active {
   box-shadow: var(--box-shadow07);
 }
-.controls{
+.controls i {
   font-size: 20px;
   user-select: none;
   color: #a7a9a7;
@@ -206,12 +207,45 @@ img {
   justify-content: center;
 }
 
-.controls .play-pause
-{
+.controls .play-pause {
   width: 80px;
   height: 80px;
   display: flex;
-   cursor: pointer;
+  cursor: pointer;
   align-items: center;
   justify-content: center;
+  border-radius: 50%;
+}
+
+.play-pause i {
+  text-align: center;
+  color: #fff;
+}
+
+.play-pause {
+  border: 3px solid #3a921f;
+  background: linear-gradient(135deg, #034e03, #24a85b);
+  box-shadow: 10px 10px 12px #151618, -10px -10px 12px #222529,
+    inset 4px 4px 8px #24a85b;
+  inset: -4px -4px 8px #034e03;
+}
+
+.play-pause:active {
+  box-shadow: 10px 10px 12px #151618, -10px -10px 12px #222529,
+    inset 10px 10px 8px #24a85b;
+  inset: -10px -10px 8px #034e03;
+}
+
+.rotate {
+  animation: rotation 8s infinite linear;
+  transform-origin: center;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }
