@@ -152,4 +152,66 @@ img {
   border-radius: 50%;
   top: 50%;
   right: -14px;
+  z-index: 2;
+  width: 28px;
+  height: 28px;
+  outline: none;
+  border: none;
+  pointer-events: none;
+  transform: translateY(-50%);
+  transition: all 0.2s ease;
+}
+
+.progress-bar::after {
+  content: '';
+  position: absolute;
+  background: rgb(58, 146, 31);
+  border-radius: 50%;
+  top: 50%;
+  right: -5px;
+  z-index: 2;
+  width: 10px;
+  height: 10px;
+  outline: none;
+  border: none;
+  pointer-events: none;
+  transform: translateY(-50%);
+  transition: all 0.2s ease;
+}
+
+.controls {
+  margin: 55px 8px 5px;
+}
+
+.btnC {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 3px solid var(--border02);
+  transition: all 0.2s ease;
+  background: var(--bg03);
+  box-shadow: var(--box-shadow06);
+}
+
+.btnC:active {
+  box-shadow: var(--box-shadow07);
+}
+.controls{
+  font-size: 20px;
+  user-select: none;
+  color: #a7a9a7;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+
+.controls .play-pause
+{
+  width: 80px;
+  height: 80px;
+  display: flex;
+   cursor: pointer;
+  align-items: center;
+  justify-content: center;
 }
