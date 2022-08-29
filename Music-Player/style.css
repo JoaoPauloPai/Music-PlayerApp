@@ -80,3 +80,58 @@ header .hdbtn {
 .hdbtn:active {
   box-shadow: var(--box-shadow02);
 }
+
+header h3 {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #86898c;
+}
+
+.player {
+  margin-top: 2rem;
+}
+img {
+  width: 18rem;
+  height: 18rem;
+  margin-bottom: 2rem;
+  object-fit: cover;
+  border: 10px solid var(--box-shadow02);
+  border-radius: 50%;
+  box-shadow: var(--box-shadow03);
+}
+
+.name {
+  color: #a7a9ab;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+.artist {
+  color: green;
+  font-size: 14px;
+  text-transform: capitalize;
+  padding: 10px 0 20px 0;
+}
+
+.audioC {
+  margin: 30px 0px 30px 0px;
+}
+
+.song-timer {
+  margin-bottom: 20px;
+}
+
+.song-timer span {
+  font-size: 10px;
+  color: #7c7d80;
+  font-weight: 800;
+}
+
+.progress-area {
+  height: 7px;
+  width: 100%;
+  margin-top: 15px;
+  border-radius: 50px;
+  background: var(--bg04);
+  box-shadow: var(--box-shadow04);
+  cursor: pointer;
+}
