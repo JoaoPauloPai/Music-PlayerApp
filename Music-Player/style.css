@@ -135,3 +135,21 @@ img {
   box-shadow: var(--box-shadow04);
   cursor: pointer;
 }
+
+.progress-area .progress-bar {
+  height: inherit;
+  width: 0%;
+  position: relative;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #bf2311 0%, #e1530a 80%);
+  box-shadow: var(--box-shadow04);
+}
+.progress-bar::before {
+  content: '';
+  position: absolute;
+  background: var(--bg02);
+  box-shadow: var(--box-shadow05);
+  border-radius: 50%;
+  top: 50%;
+  right: -14px;
+}
