@@ -1,0 +1,45 @@
+
+
+ :root{
+
+    /******* bg *********/ 
+
+    --bg01: linear-gradient(180deg,
+    #22262A 0%,
+    #181A1D 100%);
+
+    --bg02: linear-gradient(135deg,
+    #2F3439,
+    #1D1F23);
+
+    --bg03: linear-gradient(135deg,
+    #2C3136,
+    #1D2023);
+    
+    --bg04: #040404;
+
+    --border01: #22262A;
+    --border02: #1A1D21;
+
+
+    /****** box-shadow *******/ 
+    --box-shadow01:
+        6px 6px 10px #151618,
+        -6px -6px 10px #2c3136,
+        inset 2px 2px 6px #33353b, 
+        inset -3px -3px 6px #151618;
+
+    --box-shadow02: 
+        
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
