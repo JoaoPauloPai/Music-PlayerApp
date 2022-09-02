@@ -9,5 +9,16 @@ const wrapper = document.querySelector('.wrapper'),
   progressArea = wrapper.querySelector('.progress-area'),
   progressBar = progressArea.querySelector('.progress-bar')
 
+let musicIndex = Math.floor(Math.random() * allMusic.lenght + 1)
+isMusicPaused = true
 
-  let musicIndex = Math.floor((Math.random() * allMusic.lenght) + 1);
+window.addEventListener('load', () => {
+  loadMusic(musicIndex)
+})
+
+function loadMusic(indexNumb) {
+  musicName.inneText = allMusic[indexNumb - 1].name
+  musicArtist.inneText = allMusic[indexNumb - 1].artist
+  musicImg.src = `assets/image${allMusic[indexNumb - 1].src}.jpg`
+  mainAudio.src = `assets/songs${allMusic[indexNumb - 1].src}.mp3`
+}
