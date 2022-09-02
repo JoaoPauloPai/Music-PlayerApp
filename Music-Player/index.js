@@ -22,3 +22,17 @@ function loadMusic(indexNumb) {
   musicImg.src = `assets/image${allMusic[indexNumb - 1].src}.jpg`
   mainAudio.src = `assets/songs${allMusic[indexNumb - 1].src}.mp3`
 }
+
+function playMusic() {
+  wrapper.classList.add('paused')
+  musicImg.classList.add('rotate')
+  playPauseBtn.innerHTML = `<i class = "fi fi-sr-pause"></i>`
+  mainAudio.play()
+}
+
+function pauseMusic() {
+  wrapper.classList.remove('paused')
+  musicImg.classList.remove('rotate')
+  playPauseBtn.innerHTML = `<i class = "fi fi-sr-play"></i>`
+  mainAudio.pause()
+}

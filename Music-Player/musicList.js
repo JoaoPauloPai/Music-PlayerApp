@@ -10,14 +10,14 @@ let allMusic = [
   {
     name: 'Under the influence', // nome da musica
     artist: 'Chris Brown', // nome do artista
-    img: 'music-1', // image nome
-    src: 'music-1', // nome aqui
+    img: 'chrisBrow.jpg', // image nome
+    src: 'chrisBrow-UnderTheinFluence', // nome aqui
   },
   {
     name: 'Free of the Dark',
     artist: 'Iron Maiden',
-    img: 'music-2',
-    src: 'music-2',
+    img: 'ironMaiden.jpg',
+    src: '',
   },
   {
     name: 'Paro',
