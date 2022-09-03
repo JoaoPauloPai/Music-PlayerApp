@@ -11,30 +11,30 @@ let allMusic = [
     name: 'Under the influence', // nome da musica
     artist: 'Chris Brown', // nome do artista
     img: 'chrisBrow.jpg', // image nome
-    src: 'chrisBrow-UnderTheinFluence', // nome aqui
+    src: 'chirBrow-UnderTheinFluence.mp3', // nome aqui
   },
   {
     name: 'Free of the Dark',
     artist: 'Iron Maiden',
-    img: 'ironMaiden.jpg',
-    src: '',
+    img: 'IronMaiden.jpg',
+    src: 'IronMaidem-.mp3',
   },
   {
     name: 'Paro',
     artist: 'Nej',
-    img: 'music-3',
-    src: 'music-3',
+    img: 'nejParo.jpg',
+    src: 'Nej-Paro.mp3',
   },
   {
     name: 'Shut up lisen',
     artist: 'Nicholas Bonnie',
-    img: 'music-4',
-    src: 'music-4',
+    img: 'nicholasBonnie.jpg',
+    src: 'NicholasBonni_ShupUPandLisen.mp3',
   },
   {
     name: 'System Of Down',
     artist: 'System Of Down',
-    img: 'music-5',
-    src: 'music-5',
+    img: 'sytemOfDown.jpg',
+    src: 'SystemOfDown.mp3',
   },
 ]
