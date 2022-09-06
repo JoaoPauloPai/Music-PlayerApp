@@ -90,6 +90,7 @@ header h3 {
 .player {
   margin-top: 2rem;
 }
+
 img {
   width: 18rem;
   height: 18rem;
@@ -105,6 +106,7 @@ img {
   font-size: 1.5rem;
   text-transform: capitalize;
 }
+
 .artist {
   color: green;
   font-size: 14px;
@@ -145,6 +147,7 @@ img {
   background: linear-gradient(90deg, #bf2311 0%, #e1530a 80%);
   box-shadow: var(--box-shadow04);
 }
+
 .progress-bar::before {
   content: '';
   position: absolute;
@@ -197,6 +200,7 @@ img {
 .btnC:active {
   box-shadow: var(--box-shadow07);
 }
+
 .controls i {
   font-size: 20px;
   user-select: none;
@@ -245,6 +249,7 @@ img {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(359deg);
   }
