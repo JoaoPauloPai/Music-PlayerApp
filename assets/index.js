@@ -28,7 +28,7 @@ function playMusic() {
   contMusic = 1;
 
   //     wrapper.classList.add('paused')
-      musicImg.classList.add('rotate')
+  musicImg.classList.add('rotate')
   // playPauseBtn.innerHTML 
 
 
@@ -38,18 +38,12 @@ function playMusic() {
   return contMusic();
 }
 
-function playMusic1() {
-  wrapper.classList.add('paused')
-  musicImg.classList.add('rotate')
-  playPauseBtn.innerHTML
-}
-
 function pauseMusic() {
   contMusic = 0;
- // musicImg.classList.reload();
+  // musicImg.classList.reload();
   window.location.reload();
- // wrapper.classList.remove('paused')
- // musicImg.classList.remove('rotate')
+  // wrapper.classList.remove('paused')
+  // musicImg.classList.remove('rotate')
   // playPauseBtn.innerHTML = `<i class="fi fi-sr-play"></i>`
   // mainAudio.pause()
 
