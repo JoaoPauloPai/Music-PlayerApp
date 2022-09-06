@@ -41,7 +41,7 @@
           </div>
           <div class="progress-area">
             <div class="progress-bar">
-              <audio id="main-audio" src="paro.mp3"></audio>
+              <audio id="main-audio" src="/assets/js/songs/chirBrow-UnderTheinFluence.mp3"></audio>
             </div>
           </div>
         </div>
@@ -50,10 +50,10 @@
           <button class="btnC" id="prev">
             <i class="fi fi-sr-rewind"></i>
           </button>
-          <button class="play-pause btnC">
+          <button class="play-pause btnC" onclick="fContMusic()">
             <i class="fi fi-sr-play play"></i>
           </button>
-          <button class="btnC" id="next">
+          <button class="btnC" onclick="playMusic()" id="next">
             <i class="fi fi-sr-forward"></i>
           </button>
         </div>
@@ -61,5 +61,6 @@
     </div>
     <script src="../assets/music-list.js"></script>
     <script src="index.js"></script>
+  
   </body>
 </html>
